@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Milestone 1</title>
+	<link rel=stylesheet href="milestone-1-styles.css">
 </head>
 <body>
-<h1 align="center">PWP Milestone 1</h1>
-<h2 align="center">Jungle Cat Media</h2>
+<h1 class="center">PWP Milestone 1</h1>
+<h2 class="center">Jungle Cat Media</h2>
 <h3>Purpose</h3>
 This websites purpose will be to showcase Jungle Cat Media's work as a portfolio.
 <h3>Audience</h3>
