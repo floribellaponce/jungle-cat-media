@@ -8,14 +8,13 @@
 <h1 align="center">PWP Milestone 1</h1>
 <h2 align="center">Jungle Cat Media</h2>
 <h3>Purpose</h3>
-The purpose of this website will be to showcase Jungle Cat Media's work as a portfolio and also
-to provide a contact method for any inquiries and requests.
+This websites purpose will be to showcase Jungle Cat Media's work as a portfolio.
 <h3>Audience</h3>
-The target audience are business owners and personal brands. The focus is to reach any
+The target audience is business owners and personal brands. The focus is to reach any
 business owner/personal brand that is looking for creative services such as videography.
 <h3>Goal</h3>
-The goal is to promote Jungle Cat Media' services through the website so that
-they can reach potential clients and take care of all their videography needs.
+The goal is to promote Jungle Cat Media's videography work by making it available to a wider range of potential clients
+who will be able to contact for any inquiries and requests.
 <h3>Persona</h3>
 <p>
 	<strong>Name: </strong>Edwin Martinez
@@ -35,20 +34,21 @@ they can reach potential clients and take care of all their videography needs.
 	painting new artwork.
 </p>
 <p>
-	<strong>Technology: </strong> Uses Adope Photoshop platform and social media on MacBook, iPad, and iPhone.
+	<strong>Technology: </strong> Edwin uses Adope Photoshop platform and social media on MacBook, iPad, and iPhone.
 </p>
 <p>
 	<strong>Frustrations and Needs: </strong>Edwin needs to expand his customer base. He has engaged in marketing
 	strategies such as, social media account for his brand, where he posts images of his products with short
-	descriptions but it is has not been efficient for him. Edwin is new to the business of sales and marketing
-	and is needing an easier and cost efficient way to get his product known without having.
+	descriptions but it hasn't been efficient for him. He does not have time to focus on creating new product and his
+	customer range is not large enough. Edwin is new to the business of sales and marketing
+	and needs an easier and cost efficient way to get his product known without having.
 </p>
 <p>
-	<strong>Goals: </strong>Edwin's desire is to get people intrigued in his product in the easiest way possible
+	<strong>Goals: </strong>Edwin's desire is to get people intrigued by his product in the easiest possible way
 	in hopes of expanding his customer range. He wants to find an efficient marketing service that will allow him
 	to have more time to focus on his artwork and personal brand.
 </p>
-<h3>User Story</h3>As a founder of a personal brand, I need a to showcase my brand through
+<h3>User Story</h3>As a founder of a personal brand, I need to showcase my brand through
 	video to reach a larger audience in order to increase my sales.
 </body>
 </html>
