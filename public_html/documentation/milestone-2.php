@@ -12,7 +12,8 @@
 	The videos will consist of videography done for businesses and personal brands. </p>
 <p><strong>Services: </strong>The services section will outline the services the company provide with icons to match the services.
 This section will only include two services but will eventually consist of more services the location can provide.</p>
-<p>About Us</p>
+<p><strong>About Us: </strong>The about us section will have an image of the owner of the company, a personal statement/
+	summary about the owner, and a peronal statement/summary about the business.</p>
 <p>Testimonials</p>
 <p>Clips</p>
 <p>Contact</p>
