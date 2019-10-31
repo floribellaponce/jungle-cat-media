@@ -10,7 +10,8 @@
 <p><strong>Video: </strong>The video section will have a video slide show embedded from a video playlist from a different site (Vimeo).
 	The slide show will display one video at a time and will have buttons on the right and left allowing users to view the other videos.
 	The videos will consist of videography done for businesses and personal brands. </p>
-<p><strong>Services</strong></p>
+<p><strong>Services: </strong>The services section will outline the services the company provide with icons to match the services.
+This section will only include two services but will eventually consist of more services the location can provide.</p>
 <p>About Us</p>
 <p>Testimonials</p>
 <p>Clips</p>
