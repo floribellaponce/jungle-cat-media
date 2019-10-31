@@ -14,7 +14,9 @@
 This section will only include two services but will eventually consist of more services the location can provide.</p>
 <p><strong>About Us: </strong>The about us section will have an image of the owner of the company, a personal statement/
 	summary about the owner, and a peronal statement/summary about the business.</p>
-<p>Testimonials</p>
+<p><strong>Testimonials: </strong> The testimonial section will have statements from previous customers. This will be
+	a testimonial slide show that will display one testimonial at a time and will have a right and left button
+	allowing the user to see the next/previous testimonial. </p>
 <p>Clips</p>
 <p>Contact</p>
 </body>
