@@ -13,6 +13,5 @@
 <p>Testimonials</p>
 <p>Clips</p>
 <p>Contact</p>
-
 </body>
 </html>
