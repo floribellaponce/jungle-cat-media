@@ -6,6 +6,7 @@
 </head>
 <body bgcolor="#eee8aa">
 <h1>Content Strategy</h1>
+This single page site will consist of the following sections:
 <p><strong>Purpose: </strong> The purpose section will display the companies purpose/mission statement. The puspose section
 will have a background image behind the statement. </p>
 <p><strong>Video: </strong>The video section will have a video slide show embedded from a video playlist from a different site (Vimeo).
@@ -25,10 +26,10 @@ will have a background image behind the statement. </p>
 <p><strong>Contact: </strong>The contact section will consist of a contact form that will allow potential customers to
 	submit an inquiry. This section will also include the contact information of the business such as phone number and email. </p>
 <div>
+	<h1>Wireframes</h1>
+	The wireframes below how the single page site will display on mobile and desktop view. The site will be fully responsive for both views.
 	<h2>Mobile Wireframe</h2>
 	<img src="wireframes/MobileWireFrame.PNG" alt="mobile wireframes">
-</div>
-<div>
 	<h2>Desktop Wireframe</h2>
 	<img src="wireframes/Desktop1and2.PNG" alt="desktop wireframe">
 	<img src="wireframes/Desktop3and4.PNG" alt="desktop wireframe 2">
