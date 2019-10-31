@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Content Strategy</h1>
-<p>Purpose</p>
+<p><strong>Purpose:</strong> The purpose section will display the companies purpose/mission statement. </p>
 <p>Video Slideshow</p>
 <p>Services</p>
 <p>About Us</p>
