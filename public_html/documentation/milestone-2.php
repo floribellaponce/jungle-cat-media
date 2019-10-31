@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Milestone 2</title>
 </head>
-<body>
+<body bgcolor="#eee8aa">
 <h1>Content Strategy</h1>
 <p><strong>Purpose: </strong> he purpose section will display the companies purpose/mission statement. </p>
 <p><strong>Video: </strong>The video section will have a video slide show embedded from a video playlist from a different site (Vimeo).
@@ -22,5 +22,14 @@ This section will only include two services but will eventually consist of more 
 	companies Instagram page where they will be able to see more content.</p>
 <p><strong>Contact: </strong>The contact section will consist of a contact form that will allow potential customers to
 	submit an inquiry. This section will also include the contact information of the business such as phone number and email. </p>
+<div>
+	<h2>Mobile Wireframe</h2>
+	<img src="wireframes/MobileWireFrame.PNG" alt="mobile wireframes">
+</div>
+<div>
+	<h2>Desktop Wireframe</h2>
+	<img src="wireframes/Desktop1and2.PNG" alt="desktop wireframe">
+	<img src="wireframes/Desktop3and4.PNG" alt="desktop wireframe 2">
+</div>
 </body>
 </html>
