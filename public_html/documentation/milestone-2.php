@@ -17,7 +17,9 @@ This section will only include two services but will eventually consist of more 
 <p><strong>Testimonials: </strong> The testimonial section will have statements from previous customers. This will be
 	a testimonial slide show that will display one testimonial at a time and will have a right and left button
 	allowing the user to see the next/previous testimonial. </p>
-<p>Clips</p>
+<p><strong>Clips: </strong>The clips section will hold multiple clips from the companies Instagram page. The clips will
+	show a image of the content from the clip. When a user selects on the clip they will be directed to the
+	companies Instagram page where they will be able to see more content.</p>
 <p>Contact</p>
 </body>
 </html>
