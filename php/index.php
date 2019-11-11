@@ -7,8 +7,6 @@
 	<!-- stylesheet from bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-	<link href="carousel.css" rel="stylesheet">
 
 	<!-- jQueries for bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -67,6 +65,21 @@
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
+</div>
+<br>
+<div class="container marketing">
+	<div class="row">
+		<div class="col-lg-6" align="center" >
+			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+			<h2>Service #1</h2>
+			<p>Very short description</p>
+		</div>
+		<div class="col-lg-6" align="center">
+			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+			<h2>Service #1</h2>
+			<p>Very short description</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
