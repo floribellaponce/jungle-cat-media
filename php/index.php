@@ -21,6 +21,35 @@
 	<title> Jungle Cat Media Website</title>
 </head>
 <body>
+<!-- This is the header/navigation bar. -->
+<header class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<a class="navbar-brand" href="#">
+		<img src="images/logo.jpg" alt="jungle cat media logo" style="width: 64px; height:64px">
+		Jungle Cat Media
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto" >
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+		</ul>
+	</div>
+</header>
 <!-- This is the purpose quote -->
 <blockquote class="blockquote text-center">
 	<p class="mb-0">"This is a place holder where the purpose of this business is. This will will be a quote from
@@ -67,6 +96,7 @@
 	</a>
 </div>
 <br>
+<!-- This is the services section -->
 <div class="container marketing">
 	<div class="row">
 		<div class="col-lg-6" align="center" >
