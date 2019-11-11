@@ -22,7 +22,7 @@
 </head>
 <body>
 <!-- This is the header/navigation bar. -->
-<header class="navbar navbar-expand-lg navbar-dark bg-primary">
+<header class="navbar navbar-expand-lg navbar-light bg-clear">
 	<a class="navbar-brand" href="#">
 		<img src="images/logo.jpg" alt="jungle cat media logo" style="width: 64px; height:64px">
 		Jungle Cat Media
@@ -51,7 +51,7 @@
 		</ul>
 	</div>
 </header>
-<br>
+<hr>
 <!-- This is the purpose quote -->
 <div class="container">
 	<blockquote class="blockquote text-center">
