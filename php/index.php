@@ -65,56 +65,6 @@
 			  allowfullscreen></iframe>
 </div>
 <hr>
-<!-- This is the testimonial carousel -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	<div class="carousel-inner">
-		<div class="carousel-item active" data-interval="10000">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-				<rect width="100%" height="100%" fill="#777"/>
-			</svg>
-			<div class="container">
-				<div class="carousel-caption text-center">
-					<p> #1 This is a place holder for the testimonials from previous clients.</p>
-					<small><em>person</em></small>
-				</div>
-			</div>
-		</div>
-		<div class="carousel-item" data-interval="2000">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-				<rect width="100%" height="100%" fill="#777"/>
-			</svg>
-			<div class="container">
-				<div class="carousel-caption text-center">
-					<p> #2 This is a place holder for the testimonials from previous clients.</p>
-					<small><em>person</em></small>
-				</div>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-				<rect width="100%" height="100%" fill="#777"/>
-			</svg>
-			<div class="container">
-				<div class="carousel-caption text-center">
-					<p> #3 This is a place holder for the testimonials from previous clients.</p>
-					<small><em>person</em></small>
-				</div>
-			</div>
-		</div>
-	</div>
-	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
-<hr>
 <!-- This is the services section -->
 <div class="container marketing">
 	<div class="row">
@@ -161,5 +111,77 @@
 		</div>
 	</div>
 </div>
+<hr>
+<!-- This is the testimonial carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<div class="carousel-item active" data-interval="10000">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%"/>
+			</svg>
+			<div class="container">
+				<div class="carousel-caption text-center">
+					<p> #1 This is a place holder for the testimonials from previous clients.</p>
+					<small><em>person</em></small>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item" data-interval="2000">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%"/>
+			</svg>
+			<div class="container">
+				<div class="carousel-caption text-center">
+					<p> #2 This is a place holder for the testimonials from previous clients.</p>
+					<small><em>person</em></small>
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%"/>
+			</svg>
+			<div class="container">
+				<div class="carousel-caption text-center">
+					<p> #3 This is a place holder for the testimonials from previous clients.</p>
+					<small><em>person</em></small>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+<hr>
+<form>
+	<div class="container">
+		<h3>Contact Us</h3>
+		<div class="form-group">
+			<label for="formName">Name</label>
+			<input type="text" class="form-control" id="formName" placeholder="Name">
+		</div>
+		<div class="form-group">
+			<label for="formEmail">Email</label>
+			<input type="text" class="form-control" id="formEmail" placeholder="Email">
+		</div>
+		<div class="form-group">
+			<label for="formNumber">Phone Number</label>
+			<input type="text" class="form-control" id="formNumber" placeholder="Phone Number">
+		</div>
+		<div class="form-group">
+			<label for="formInquiry">Inquiry</label>
+			<textarea type="text" class="form-control" id="formInquiry" placeholder="Inquiry Description"> </textarea>
+		</div>
+	</div>
+</form>
 </body>
 </html>
