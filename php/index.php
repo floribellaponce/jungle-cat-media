@@ -27,11 +27,12 @@
 		<img src="images/logo.jpg" alt="jungle cat media logo" style="width: 64px; height:64px">
 		Jungle Cat Media
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto" >
+		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
 				<a class="nav-link" href="#">Link</a>
 			</li>
@@ -58,14 +59,20 @@
 			the business owner himself explaining what the purpose of his business is."</p>
 	</blockquote>
 </div>
+<hr>
 <div class="container" align="center">
-	<iframe title="vimeo-player" src="https://player.vimeo.com/video/336812660"  width="450" height="360"  frameborder="0" allowfullscreen></iframe>
+	<iframe title="vimeo-player" src="https://player.vimeo.com/video/336812660" width="450" height="360" frameborder="0"
+			  allowfullscreen></iframe>
 </div>
+<hr>
 <!-- This is the testimonial carousel -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
 		<div class="carousel-item active" data-interval="10000">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%" fill="#777"/>
+			</svg>
 			<div class="container">
 				<div class="carousel-caption text-center">
 					<p> #1 This is a place holder for the testimonials from previous clients.</p>
@@ -74,7 +81,10 @@
 			</div>
 		</div>
 		<div class="carousel-item" data-interval="2000">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%" fill="#777"/>
+			</svg>
 			<div class="container">
 				<div class="carousel-caption text-center">
 					<p> #2 This is a place holder for the testimonials from previous clients.</p>
@@ -83,7 +93,10 @@
 			</div>
 		</div>
 		<div class="carousel-item">
-			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+				<rect width="100%" height="100%" fill="#777"/>
+			</svg>
 			<div class="container">
 				<div class="carousel-caption text-center">
 					<p> #3 This is a place holder for the testimonials from previous clients.</p>
@@ -101,19 +114,50 @@
 		<span class="sr-only">Next</span>
 	</a>
 </div>
-<br>
+<hr>
 <!-- This is the services section -->
 <div class="container marketing">
 	<div class="row">
-		<div class="col-lg-6" align="center" >
-			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+		<div class="col-md-6" align="center">
+			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+				<title>Placeholder</title>
+				<rect width="100%" height="100%" fill="#777"/>
+				<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+			</svg>
 			<h3>Service #1</h3>
 			<p>Very short description</p>
 		</div>
-		<div class="col-lg-6" align="center">
-			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+		<div class="col-md-6" align="center">
+			<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+				  preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+				<title>Placeholder</title>
+				<rect width="100%" height="100%" fill="#777"/>
+				<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+			</svg>
 			<h3>Service #1</h3>
 			<p>Very short description</p>
+		</div>
+	</div>
+</div>
+<hr>
+<div class="container">
+	<div class="row about-us">
+		<div class="col-md-5">
+			<img src="images/logo.jpg" class="rounded-circle img-lg about-us-image img-fluid mx-auto"
+				  width="500" height="500" preserveAspectRatio="xMidYMid slice"
+				  focusable="false" role="img"> <rect width="100%" height="100%"/>
+		</div>
+		<div class="col-md-7">
+			<h2 class="about-us heading">About us</h2>
+			<p class="lead">
+				This is a paragraph with information about the founder of the company and about
+				the company itself. This is a paragraph with information about the founder of the company and about
+				the company itself.This is a paragraph with information about the founder of the company and about
+				the company itself.This is a paragraph with information about the founder of the company and about
+				the company itself.This is a paragraph with information about the founder of the company and about
+				the company itself.
+			</p>
 		</div>
 	</div>
 </div>
