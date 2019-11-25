@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-		<!-- Custom CSS -->
-	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
 
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			  crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+			  integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			  crossorigin="anonymous"></script>
 
-		<!-- jQuery Form, Validate, Additional Methods, -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
+	<!-- jQuery Form, Validate, Additional Methods, -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+			  integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"
+			  integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"
+			  integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
 
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!-- form validate js -->
+	<!-- form validate js -->
 
-		<script src="js/jquery-validate.js"></script>
+	<script src="js/jquery-validate.js"></script>
 
 	<title> Jungle Cat Media Website</title>
 </head>
@@ -36,10 +44,11 @@
 		<div class="container navbar-brand">
 			<div class="header-text">
 				<img class="media-logo" src="images/logo.jpg" alt="jungle cat media logo">
-				Jungle Cat Media </div>
+				Jungle Cat Media
+			</div>
 		</div>
-		<div class="collapse navbar-collapse link-buttons" id="navbarSupportedContent">
-			<ul class="navbar-nav justify-content-end">
+		<div id="navbarSupportedContent" class="d-none d-lg-block d-xl-block">
+			<ul class="navbar-nav justify-content-left">
 				<li class="nav-item">
 					<a class="nav-link" href="#purpose">Purpose</a>
 				</li>
@@ -59,52 +68,62 @@
 		</div>
 	</nav>
 </header>
-<!--
- // COMMENT This is the contact form section
-<div id="contact-us">
-	<form id="jungle-cat-form" action="../php/index.php" method="post">
-		<div class="container">
-			<h3>Contact Us</h3>
-			<div class="form-group">
-				<label for="name">Name</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-					</div>
-					<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="email">Email</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-					</div>
-					<input type="text" class="form-control" id="email" name="email" placeholder="Email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message">Inquiry</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-					</div>
-					<textarea type="text" class="form-control" rows="5" id="message" name="message"
-								 placeholder="Inquiry Description"> </textarea>
-				</div>
-			</div>
 
-			// COMMENT reCAPTCHA
-			<div class="g-recaptcha" data-sitekey="6Le1KsIUAAAAAIr4UvHhAod8vqDtZ2ItH6TyGXMd"></div>
+<!-- This is the contact form section -->
+<main>
+	</section>
 
-			<button class="btn btn-success" type="submit"> Send</button>
-			<button class="btn btn-warning" type="reset"> Reset</button>
+
+	<!--
+	Contact Form.
+	-->
+	<section>
+		<!-- This is the contact form section -->
+		<div id="contact-us">
+			<form id="jungle-cat-form" action="../php/" method="post">
+				<div class="container">
+					<h3>Contact Us</h3>
+					<div class="form-group">
+						<label for="name">Name<span class="text-danger">*</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+							</div>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Email<span class="text-danger">*</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+							</div>
+							<input type="text" class="form-control" id="email" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message">Inquiry<span class="text-danger">*</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+							</div>
+							<textarea class="form-control" rows="5" id="message" name="message"
+										 placeholder="Inquiry Description"></textarea>
+						</div>
+					</div>
+
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="6Le1KsIUAAAAAIr4UvHhAod8vqDtZ2ItH6TyGXMd"></div>
+
+					<button type="submit"> Send</button>
+					<button type="reset"> Reset</button>
+				</div>
+			</form>
 		</div>
-	</form>
-</div>
-< empty area for form error/success output -->
-<div class="row">
-	<div class="col-xs-12">
-		<div id="output-area"></div>
-	</div>
-</div>
--->
+		<!-- empty area for form error/success output -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
+	</section>
+</main>
 </body>
 </html>
