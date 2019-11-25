@@ -1,23 +1,54 @@
-body {
-	padding-top: 4px;
+header {
+
+}
+
+main {
+	padding-top: 100px;
+}
+
+nav {
+	width: 100%;
+	text-align: left;
+	height: 80px;
 }
 
 .media-logo {
-	width: 90px;
-	height: 85px;
+	width: 85px;
+	height: 75px;
 	padding-right: 2px;
 }
 
 .header-text {
-	alignment: left;
-	text-align: left;
 	text-transform: uppercase;
 	text-shadow: 3px 2px goldenrod;
-	font-size: 35px;
+	font-size: 25px;
 }
 
-.link-buttons {
+
+a {
 	color: black;
 	text-transform: uppercase;
-	text-shadow: 3px 2px goldenrod;
+	text-shadow: 1px 1px goldenrod;
+	text-align: right;
+}
+
+a:hover {
+	color: gold;
+}
+
+button {
+	background-color: goldenrod;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	border: none;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: black;
+	color: goldenrod;
+
 }
