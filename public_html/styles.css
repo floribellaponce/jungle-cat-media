@@ -1,0 +1,23 @@
+body {
+	padding-top: 4px;
+}
+
+.media-logo {
+	width: 90px;
+	height: 85px;
+	padding-right: 2px;
+}
+
+.header-text {
+	alignment: left;
+	text-align: left;
+	text-transform: uppercase;
+	text-shadow: 3px 2px goldenrod;
+	font-size: 35px;
+}
+
+.link-buttons {
+	color: black;
+	text-transform: uppercase;
+	text-shadow: 3px 2px goldenrod;
+}
