@@ -1,5 +1,3 @@
-
-
 main {
 	padding-top: 100px;
 }
@@ -93,6 +91,7 @@ button:hover {
 #purpose {
 	alignment: center;
 	text-align: center;
+	font-size: 10vw;
 }
 
 #video {
@@ -109,4 +108,17 @@ button:hover {
 	height: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+#services img {
+	width: 200px;
+	height: 200px;
+}
+
+.gray-bg-color {
+	background: rgba(0, 0, 0, 0.07);
+	color: black;
+	margin: .5em 10px;
+	padding: 10px 20px;
+	line-height: 1.4;
 }
