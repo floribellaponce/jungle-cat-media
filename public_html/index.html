@@ -40,33 +40,35 @@
 </head>
 <body>
 <header>
-		<nav class="navbar navbar-expand-lg navbar-white fixed-top bg-white justify-content-start">
-			<div class="container navbar-brand">
-				<div class="header-text">
-					<img class="media-logo" src="images/logo.jpg" alt="jungle cat media logo">
-					Jungle Cat Media
-				</div>
+	<!-- This it the navigation bar -->
+	<nav class="navbar navbar-expand-lg navbar-white fixed-top bg-white justify-content-start">
+		<div class="container navbar-brand">
+			<div class="header-text">
+				<img class="media-logo" src="images/logo.jpg" alt="jungle cat media logo">
+				Jungle Cat Media
 			</div>
-			<div id="navbarSupportedContent" class="d-none d-lg-block d-xl-block">
-				<ul class="navbar-nav justify-content-left">
-					<li class="nav-item">
-						<a class="nav-link" href="#services-button">Services</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-button">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#testimonials-button">Testimonials</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#content-button">Content</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact-button">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		</div>
+		<!-- These are the navigation buttons -->
+		<div id="navbarSupportedContent" class="d-none d-lg-block d-xl-block">
+			<ul class="navbar-nav justify-content-left">
+				<li class="nav-item">
+					<a class="nav-link" href="#services-button">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about-button">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#testimonials-button">Testimonials</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#content-button">Content</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact-button">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 </header>
 
 <main>
@@ -82,7 +84,7 @@
 
 	<hr>
 
-	<!-- This is the video section -->
+	<!-- This is the main video section -->
 	<section id="video">
 		<div class="container">
 			<iframe
@@ -92,7 +94,7 @@
 		</div>
 	</section>
 
-
+	<!-- This is the services reference section button -->
 	<div id="services-button"></div>
 	<hr>
 
@@ -103,25 +105,27 @@
 			<div class="row">
 				<div class="col-md-6" align="center">
 					<img src="images/Video.PNG" alt="video" class="rounded-circle">
-					<h3>Videoagraphy</h3>
+					<h4>Videoagraphy</h4>
 				</div>
 				<div class="col-md-6" align="center">
 					<img src="images/Edits.PNG" alt="edits" class="rounded-circle">
-					<h3>Video Editing</h3>
+					<h4>Video Editing</h4>
 				</div>
 				<div class="col-md-6" align="center">
 					<img src="images/placeholder.PNG" alt="placeholder" class="rounded-circle">
-					<h3>Photography</h3>
+					<h4>Photography</h4>
 				</div>
 				<div class="col-md-6" align="center">
 					<img src="images/placeholder.PNG" alt="placeholder" class="rounded-circle">
-					<h3>Marketing Strategy</h3>
+					<h4>Marketing Strategy</h4>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<!-- This is the about section reference button-->
 	<div id="about-button"></div>
+
 	<hr>
 
 	<!-- This is the about us section -->
@@ -147,11 +151,12 @@
 		</div>
 	</section>
 
+	<!--This is the testimonial reference button-->
 	<div id="testimonials-button"></div>
+
 	<hr>
 
 	<!-- This is the testimonial carousel -->
-
 	<section class="gray-bg-color">
 		<div id="testimonial">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -204,9 +209,12 @@
 		</div>
 	</section>
 
+	<!--This is the content reference button-->
 	<div id="content-button"></div>
+
 	<hr>
 
+	<!-- This is the video content section. Section consists of embeded code from facebook/youtube -->
 	<section class="gray-bg-color">
 		<div id="videos">
 			<div id="myCarousels" class="carousel slide" data-ride="carousel">
@@ -269,7 +277,9 @@
 		</div>
 	</section>
 
+	<!--This is the contact reference button-->
 	<div id="contact-button"></div>
+
 	<hr>
 	<!-- This is the contact form section -->
 	<section class="gray-bg-color">
@@ -310,17 +320,12 @@
 							</div>
 						</div>
 					</div>
-					<!-- reCAPTCHA -->
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-12">
-								<div class="g-recaptcha" data-sitekey="6Le1KsIUAAAAAIr4UvHhAod8vqDtZ2ItH6TyGXMd"></div>
 
-								<button type="submit"> Send</button>
-								<button type="reset"> Reset</button>
-							</div>
-						</div>
-					</div>
+					<!-- reCAPTCHA -->
+					<div  data-size="compact" class="g-recaptcha" data-sitekey="6Le1KsIUAAAAAIr4UvHhAod8vqDtZ2ItH6TyGXMd"></div>
+
+					<button type="submit"> Send</button>
+					<button type="reset"> Reset</button>
 				</div>
 			</form>
 		</div>
