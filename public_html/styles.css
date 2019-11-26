@@ -122,3 +122,8 @@ button:hover {
 	padding: 10px 20px;
 	line-height: 1.4;
 }
+
+.carousel-text {
+	color: black;
+	text-align: center;
+}
