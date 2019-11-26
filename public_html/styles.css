@@ -1,6 +1,4 @@
-header {
 
-}
 
 main {
 	padding-top: 100px;
@@ -10,6 +8,10 @@ nav {
 	width: 100%;
 	text-align: left;
 	height: 80px;
+}
+
+blockquote {
+	
 }
 
 .media-logo {
@@ -51,4 +53,36 @@ button:hover {
 	background-color: black;
 	color: goldenrod;
 
+}
+
+.quote {
+	font-size: 25px;
+	margin: 0 auto;
+	quotes: "\201C""\201D""\2018""\2019";
+	padding: 10px 20px;
+	line-height: 1.4;
+}
+
+.quote:before {
+	content: open-quote;
+	display: inline;
+	height: 0;
+	line-height: 0;
+	left: -10px;
+	position: relative;
+	top: 30px;
+	color: #ccc;
+	font-size: 3em;
+}
+
+.quote::after {
+	content: close-quote;
+	display: inline;
+	height: 0;
+	line-height: 0;
+	left: 10px;
+	position: relative;
+	top: 35px;
+	color: #ccc;
+	font-size: 3em;
 }
